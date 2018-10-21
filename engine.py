@@ -1,6 +1,9 @@
 from turtle import _screen_docrevise
 
-import tcod as libtcod
+try:
+    import libtcodpy as libtcod
+except:
+    import tcod as libtcod
 
 from input_handlers import handle_keys
 from entity import Entity

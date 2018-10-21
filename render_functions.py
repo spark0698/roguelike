@@ -1,4 +1,7 @@
-import tcod as libtcod
+try:
+    import libtcodpy as libtcod
+except:
+    import tcod as libtcod
 
 
 def render_all(con, entities, game_map, screen_width, screen_height, colors):

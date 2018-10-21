@@ -1,4 +1,7 @@
-import tcod as libtcod
+try:
+    import libtcodpy as libtcod
+except:
+    import tcod as libtcod
 
 def handle_keys(key):
     # Movement keys
