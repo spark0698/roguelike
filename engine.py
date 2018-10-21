@@ -1,5 +1,6 @@
 from turtle import _screen_docrevise
 
+# noinspection PyInterpreter,PyInterpreter
 try:
     import libtcodpy as libtcod
 except:
